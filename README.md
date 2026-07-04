@@ -84,11 +84,13 @@ This project implements a **4-Bit Arithmetic Logic Unit (ALU)** using **Verilog 
 
 ### RTL Schematic
 
-The RTL schematic illustrates the hardware architecture generated from the Verilog design.
+![RTL Schematic](rtl_schematic.png)
 
 ### Simulation Waveform
 
-The simulation waveform verifies the correct functionality of all eight ALU operations for different input combinations.
+![Simulation Waveform](simulation_waveform.png)
+
+The simulation confirms that the counter increments correctly on each clock pulse and wraps back to zero after reaching the maximum count.
 
 ---
 
